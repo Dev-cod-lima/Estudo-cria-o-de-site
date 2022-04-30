@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@600&family=Ubuntu+Condensed&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#ffffff;
+}
+
+nav{
+    background:linear-gradient(to right, rgb(196, 130, 235) , rgb(245, 2, 136));
+    height: 80px;
+    width: 100%;
+}
+
+label{
+    font-family: 'Smooch Sans', sans-serif;
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+
+}
+
+
+
+nav ul{
+    float:right;
+    margin-right: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{ 
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+    
+}
+a.active,a:hover{
+    background: #780caa;
+    transition: .5s;
+
+}
+.checkbtn{
+    font-size: 17px;
+    color: white;
+    float:right;
+   line-height: 80px;
+   
+    cursor: pointer;
+    display:none ;
+    border-radius: -600px;
+    
+}
+.egr{
+    
+    color: white;
+    border-radius: 100px;
+    
+}
+.menu{
+ width: 25px;
+ float: right;
+margin-right: -65px;
+margin-top: 20px;
+}
+#check{
+    display: none;
+    
+
+}
+
+
+
+
+@media (max-width: 952px){
+    label{
+font-size: 30px;
+padding-left: 10px;
+
+
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media( max-width: 858px){
+    .checkbtn{
+        display: block;
+        
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #c2177b;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .2s;
+       
+    }
+
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a{
+        font-size: 20px;
+
+    }
+    a:hover,a.active{
+        background: none;
+        color: #33023a;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+   
+}
+
+/* configuração do menu - fim*/
+h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color:rgb(218, 12, 156) ;
+    font-size: 14pt;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 17px;
+}
+
+#cecroo{
+  
+    width:100%;
+   position:static;
+   
+   
+
+}
+
+table.cecro{
+    color:white;
+ 
+    width: 1px;
+   align-items: center;
+    text-align: center;
+    
+}
+
+
+.mirian{
+    width: 100%;
+}
+.ohana{
+   width:100%; 
+}
+.he{
+    width: 100%;
+}
+
+p{
+    margin: 5px;
+    margin-top: 30px;  
+    color: rgb(167, 13, 120);
+    text-align: justify;
+    font-size: 15pt;
+    border: 2px solid ;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer{
+    margin-top: 5vh;
+    bottom: 0;
+    background-color:  #ce1ddf;
+    position: relative;
+    height: 10%;
+    text-align: center;
+    line-height:60px;
+    text-decoration: none;
+    
+}
+
+
+button{
+    
+    color: rgb(255, 255, 255);
+    size: 100px;
+    font-size: 45px;
+    background-color:#ce1ddf;
+    padding: 0px;
+    border-radius: 50% 20%;
+    margin: 2% 5%;
+    line-height: 20px;
+    cursor: pointer;
+    
+}
+
+
+#cabeçalho h3{
+    background-color: rgb(218, 12, 156);
+    height: 70px;
+    
+}
+
+#unidades{
+    background-color: rgb(112, 6, 80);
+    border-radius: 5%;
+   text-align: center;
+    color: white;
+    width: 25%;
+
+}
+#unidades.option{
+    text-align: center;
+}
+
+
+h1{
+    color: #65336b;
+    text-align: center;
+    background-color: #ce1ddf;
+   
+    
+}
+h2{
+    text-align: center;
+    color: #700d57;
+}
+
+#aulas{
+    margin: 2px solid rgb(0, 0, 0);
+    
+}
+table{
+    width: 100%;
+    
+    
+}
+table td{
+    border: 1px solid rgb(126, 7, 126);
+    text-align: center;
+    color: white;
+    background-color: #ce1ddf;
+}
+.botao{
+    
+    margin-left: 25%;
+    background-color:#ce1ddf;
+    font-size: 12pt;
+    padding: 5px;
+    border-radius: 30px;
+    width: 50%;
+}
+.bota{
+    background-color: #ce1ddf;
+   width: 50%;
+   
+    margin-left: 25%;
+
+    font-size: 12pt;
+    border-radius: 30px;
+    padding: 5px;
+}
+.bota:hover{
+    background: #780caa;
+    transition: .5s;
+}
+.botao:hover{
+    background: #780caa;
+    transition: .5s;
+}
